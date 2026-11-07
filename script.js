@@ -122,7 +122,7 @@ document.addEventListener('keydown', e => {
 const emailBtn = document.getElementById('emailCopy');
 emailBtn.addEventListener('click', async () => {
   const label = emailBtn.querySelector('span');
-  try { await navigator.clipboard.writeText('victorlacanienta@gmail.com'); label.textContent = 'Copied!'; }
+  try { await navigator.clipboard.writeText('victorlacanienta2@gmail.com'); label.textContent = 'Copied!'; }
   catch { label.textContent = 'Select & copy'; }
   setTimeout(() => (label.textContent = 'Copy'), 1800);
 });
